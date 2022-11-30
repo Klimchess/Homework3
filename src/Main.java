@@ -24,10 +24,25 @@ public class Main {
         System.out.println(scotch);
         byte ball = 67;
         System.out.println(ball);
-        long hi = 987678965549l;
+        long hi = 987678965549L;
         System.out.println(hi);
         short bag = 569;
         System.out.println(bag);
+        byte teacherLudmila = 23;
+        System.out.println("у Людмилы Павловны " + teacherLudmila + " ученика ");
+        byte teacherAnna = 27;
+        System.out.println("у Анны Сергеевны " + teacherAnna + " ученика ");
+        byte teacherEkaterina = 30;
+        System.out.println("у Екатерины Ивановны " + teacherEkaterina + " ученика ");
+        short parper = 480;
+        System.out.println("всего бумаги " + parper + " листа на 3класса ");
+        int list = parper / (teacherLudmila + teacherAnna + teacherEkaterina);
+        System.out.println("На каждого ученика расчитано " + list + " листов бумаги ");
+
+
+
+
+
 
 
 
