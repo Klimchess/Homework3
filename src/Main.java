@@ -75,6 +75,28 @@ public class Main {
         int totalBrownPaint = numberClassroom * brownPaint;
         //System.out.println(totalBrownPaint);
         System.out.println("В школе, где " + numberClassroom + "классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски " );
+        byte bananas = 5;
+        //System.out.println(bananas);
+        short milk = 200;
+        //System.out.println(milk);
+        short iceCream = 2;
+        //System.out.println();
+        byte eggs = 4;
+        //System.out.println(eggs);
+        int bananasWeight = bananas * 80;
+        //System.out.println(bananasWeight);
+        double milkWeight = milk * 1.05;
+        //System.out.println(milkWeight);
+        int iceCreamWeight = iceCream * 100;
+        //System.out.println(iceCreamWeight);
+        int eggsWeight = eggs * 70;
+        //System.out.println(eggsWeight);
+        double weightBreafast = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+        System.out.println("Вес спортзавтрака " + weightBreafast + " грамм ");
+        double weightBrefastKg = weightBreafast / 1000;
+        System.out.println("Вес спортзавтрака " + weightBrefastKg + " килограмм ");
+
+
 
 
 
