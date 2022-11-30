@@ -38,6 +38,31 @@ public class Main {
         System.out.println("всего бумаги " + parper + " листа на 3класса ");
         int list = parper / (teacherLudmila + teacherAnna + teacherEkaterina);
         System.out.println("На каждого ученика расчитано " + list + " листов бумаги ");
+        byte amountBottle = 16;
+        System.out.println("количество бутылок " + amountBottle + " штук ");
+        byte time = 2;
+        System.out.println("требуется " + time + " минуты на изготовление ");
+        int performance = amountBottle / time;
+        System.out.println("Производительность " + performance + " бутылок в минуту ");
+        short timeTwo = 20;
+        System.out.println(timeTwo);
+        int bottlesProduced = timeTwo * performance;
+        System.out.println("За 20минут машина произвела " + bottlesProduced + " штук бытулок ");
+        short day = 24 * 60;
+        System.out.println(day);
+        int bottlesProductedDay = day * performance;
+        System.out.println("За сутки машина произвела " + bottlesProductedDay + " штук бутылок ");
+        int threeDay = day * 3;
+        System.out.println(threeDay);
+        int bottlesProductedThreeDay = threeDay * performance;
+        System.out.println("За три дня машина произвела " + bottlesProductedThreeDay + " штук бутылок ");
+        int month = day * 30;
+        System.out.println(month);
+        int bottlesProductedMonth = month * performance;
+        System.out.println("За месяц машина произвела " + bottlesProductedMonth + " штук бутылок ");
+
+
+
 
 
 
