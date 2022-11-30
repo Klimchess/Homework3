@@ -29,23 +29,23 @@ public class Main {
         short bag = 569;
         System.out.println(bag);
         byte teacherLudmila = 23;
-        System.out.println("у Людмилы Павловны " + teacherLudmila + " ученика ");
+        //System.out.println("у Людмилы Павловны " + teacherLudmila + " ученика ");
         byte teacherAnna = 27;
-        System.out.println("у Анны Сергеевны " + teacherAnna + " ученика ");
+        //System.out.println("у Анны Сергеевны " + teacherAnna + " ученика ");
         byte teacherEkaterina = 30;
-        System.out.println("у Екатерины Ивановны " + teacherEkaterina + " ученика ");
+        //System.out.println("у Екатерины Ивановны " + teacherEkaterina + " ученика ");
         short parper = 480;
-        System.out.println("всего бумаги " + parper + " листа на 3класса ");
+        //System.out.println("всего бумаги " + parper + " листа на 3класса ");
         int list = parper / (teacherLudmila + teacherAnna + teacherEkaterina);
         System.out.println("На каждого ученика расчитано " + list + " листов бумаги ");
         byte amountBottle = 16;
-        System.out.println("количество бутылок " + amountBottle + " штук ");
+        //System.out.println("количество бутылок " + amountBottle + " штук ");
         byte time = 2;
-        System.out.println("требуется " + time + " минуты на изготовление ");
+        //System.out.println("требуется " + time + " минуты на изготовление ");
         int performance = amountBottle / time;
-        System.out.println("Производительность " + performance + " бутылок в минуту ");
+        //System.out.println("Производительность " + performance + " бутылок в минуту ");
         short timeTwo = 20;
-        System.out.println(timeTwo);
+        //System.out.println(timeTwo);
         int bottlesProduced = timeTwo * performance;
         System.out.println("За 20минут машина произвела " + bottlesProduced + " штук бытулок ");
         short day = 24 * 60;
@@ -60,6 +60,23 @@ public class Main {
         System.out.println(month);
         int bottlesProductedMonth = month * performance;
         System.out.println("За месяц машина произвела " + bottlesProductedMonth + " штук бутылок ");
+        short shcool = 120;
+        //System.out.println("На ремонт школы уходит " + shcool + " банок краски ");
+        byte whitePaint = 2;
+        //System.out.println(whitePaint);
+        byte brownPaint = 4;
+        //System.out.println(brownPaint);
+        int classroomDye = whitePaint + brownPaint;
+        //System.out.println(classroomDye + " банок краски уходит на класс ");
+        int numberClassroom = shcool / classroomDye;
+        //System.out.println(numberClassroom + " классов в школе ");
+        int totalWhitePaint = numberClassroom * whitePaint;
+        //System.out.println(totalWhitePaint);
+        int totalBrownPaint = numberClassroom * brownPaint;
+        //System.out.println(totalBrownPaint);
+        System.out.println("В школе, где " + numberClassroom + "классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски " );
+
+
 
 
 
