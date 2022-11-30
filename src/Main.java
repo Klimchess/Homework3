@@ -14,6 +14,23 @@ public class Main {
         System.out.println("Значение переменной с типос float равно " + f);
         double e = 65.74;
         System.out.println("Значeние переменной с типом double равно " + e);
+        float cat = 27.12f;
+        System.out.println(cat);
+        double fish = 2.786;
+        System.out.println(fish);
+        short world = -159;
+        System.out.println(world);
+        int scotch = 27897;
+        System.out.println(scotch);
+        byte ball = 67;
+        System.out.println(ball);
+        long hi = 987678965549l;
+        System.out.println(hi);
+        short bag = 569;
+        System.out.println(bag);
+
+
+
 
     }
 }
