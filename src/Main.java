@@ -96,7 +96,7 @@ public class Main {
         double weightBrefastKg = weightBreafast / 1000;
         System.out.println("Вес спортзавтрака " + weightBrefastKg + " килограмм ");
         byte wieghtGr = 1;
-        System.out.println("Вес грама " + wieghtGr);
+        //System.out.println("Вес граvма " + wieghtGr);
         int grPerKg = 1000;
         System.out.println("В одном кг " + grPerKg + " грамм ");
         float weightKg = wieghtGr / (float) grPerKg;
