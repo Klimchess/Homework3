@@ -95,6 +95,36 @@ public class Main {
         System.out.println("Вес спортзавтрака " + weightBreafast + " грамм ");
         double weightBrefastKg = weightBreafast / 1000;
         System.out.println("Вес спортзавтрака " + weightBrefastKg + " килограмм ");
+        byte wieghtGr = 1;
+        System.out.println("Вес грама " + wieghtGr);
+        int grPerKg = 1000;
+        System.out.println("В одном кг " + grPerKg + " грамм ");
+        float weightKg = wieghtGr / (float) grPerKg;
+        System.out.println("В одном грамме " + weightKg + " кг ");
+        int weigtLossKg = 7;
+        System.out.println("Нужно сбросить " + weigtLossKg + " кг ");
+        int weightLossGr = weigtLossKg * grPerKg ;
+        System.out.println("Нужно сбросить " + weightLossGr + " грамм");
+        short min = 250;
+        System.out.println("Минимальная потеря в весе за день " + min + "грамм");
+        short max = 500;
+        System.out.println("Максимальная потеря в весе за день " + max + "грамм");
+        int minDay = weightLossGr / min;
+        System.out.println(minDay + " дней уйдет на похудение, если спортсмен будет терять по "  + min + " грамм каждый день");
+        int maxDay = weightLossGr / max;
+        System.out.println(maxDay + " дней уйдет на похудение, если спортсмен будет терять по " + max + " грамм каждый день");
+        int averageLossWeight = (min + max) / 2;
+        System.out.println("Средняя потеря веса в день " + averageLossWeight + " грамм");
+        int averageDay = weightLossGr / averageLossWeight;
+        System.out.println("Потребуется " + averageDay + " дней в среднем, чтобы добиться результата похудения ");
+
+
+
+
+
+
+
+
 
 
 
