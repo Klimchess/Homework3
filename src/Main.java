@@ -117,6 +117,43 @@ public class Main {
         System.out.println("Средняя потеря веса в день " + averageLossWeight + " грамм");
         int averageDay = weightLossGr / averageLossWeight;
         System.out.println("Потребуется " + averageDay + " дней в среднем, чтобы добиться результата похудения ");
+        int masha = 67760;
+        //System.out.println("Маша получается "+ masha + " рублей в месяц");
+        int denis = 83690;
+        //System.out.println("Денис получает " + denis + " рублей в месяц");
+        int kristina = 76230;
+        //System.out.println("Кристина получает " + kristina + " рублей в месяц ");
+        int year = 12;
+        //System.out.println("В году " + year + " месяцев");
+        int annualSalaryMasha = masha * year;
+        //System.out.println(annualSalaryMasha + " рублей Маша зарабатывает в год");
+        int annualSalaryDenis = denis * year;
+        //System.out.println(annualSalaryDenis + " рублей зарабатывает Денис в год");
+        int annualSalaryKristina = kristina * year;
+        //System.out.println(annualSalaryKristina + " рублей зарабатывает Кристина в год");
+        int salaryMashaNew = masha + masha / 10;
+        //System.out.println(salaryMashaNew + " рублей новая зарплата Маши");
+        int salaryDenisNew = denis + denis / 10;
+        //System.out.println(salaryDenisNew + " рублей новая зарплата Дениса ");
+        int salaryKristinaNew = kristina + kristina / 10;
+        //System.out.println(salaryKristinaNew + " рублей новая зарплата Кристины");
+        int annualSalaryMashaNew = salaryMashaNew * year;
+        //System.out.println(annualSalaryMashaNew + " рублей новая годовая зарплата Маши");
+        int annualSalaryDenisNew = salaryDenisNew * year;
+        //System.out.println(annualSalaryDenisNew + " рублей новая годавая зарплата Дениса");
+        int annualSalaryKrisninaNew = salaryKristinaNew * year;
+        //System.out.println(annualSalaryKrisninaNew + " рублей новая годовая зарплата Кристины");
+        int incomeMasha = annualSalaryMashaNew - annualSalaryMasha;
+        //System.out.println(incomeMasha);
+        int incomeDenis = annualSalaryDenisNew - annualSalaryDenis;
+        //System.out.println(incomeDenis);
+        int incomeKristina = annualSalaryKrisninaNew - annualSalaryKristina;
+        //System.out.println(incomeKristina);
+        System.out.println( "Маша теперь получает " + salaryMashaNew + " рублей. Годовой доход вырос на " + incomeMasha + " рублей");
+        System.out.println( "Денис теперь получает " + salaryDenisNew + " рублей. Годовой доход вырос на " + incomeDenis + " рублей");
+        System.out.println( "Кристина теперь получается " + salaryKristinaNew + " рублей. Годовой доход вырос на " + incomeKristina + " Рублей" );
+
+
 
 
 
