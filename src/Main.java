@@ -3,6 +3,7 @@ import java.util.concurrent.LinkedTransferQueue;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello world!");
         int a = 2000;
         System.out.println("Значение переменной с типом int равно " + a);
         byte b = 1;
